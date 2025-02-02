@@ -58,6 +58,11 @@ ingress:
   #  - secretName: chart-example-tls
   #    hosts:
   #      - chart-example.local
+  
+postgresql:
+  postgresqlUsername: to_do_user
+  postgresqlPassword: to_do_password
+  postgresqlDatabase: todo_db
 
 resources:
   {}
