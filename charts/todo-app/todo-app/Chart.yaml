@@ -4,3 +4,8 @@ description: A web-based To-Do app to help you remember the things you need to d
 name: todo-app
 type: application
 version: 1.1.4
+
+dependencies:
+  - name: postgresql
+    version: "13"
+    repository: "https://charts.bitnami.com/bitnami"
