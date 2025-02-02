@@ -60,9 +60,16 @@ ingress:
   #      - chart-example.local
   
 postgresql:
-  postgresqlUsername: to_do_user
-  postgresqlPassword: to_do_password
-  postgresqlDatabase: todo_db
+  enabled: true
+  auth:
+    username: to_do_user
+    password: to_do_password
+    database: todo_db
+  primary:
+    persistence:
+      enabled: true
+      size: 4Gi
+
 
 resources:
   {}
