@@ -38,7 +38,5 @@ Check ArgoCD UI for `my-todo-app`. If needed, click **Sync** to deploy.
 ├── charts/
 │   ├── todo-app/  # Helm chart for the To-Do application
 │   ├── argo-cd/  # ArgoCD Helm chart
-├── argocd/
-│   ├── argo-app.yaml  # ArgoCD application definition
 ├── README.md  # This file
 ```
